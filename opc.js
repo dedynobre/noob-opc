@@ -55,7 +55,7 @@ function constructAlarmAddressSpace(server, addressSpace, eventObjects, done) {
 	// ---------------------------------------------------------------------
 	
     namespace.addVariable({
-        nodeId: 'ns=1;s=var_01',
+        //nodeId: 'ns=1;i=var_01',
         browseName: 'Variavel 01',
 		organizedBy: pEntradas,
         dataType: 'Double',
@@ -77,7 +77,7 @@ function constructAlarmAddressSpace(server, addressSpace, eventObjects, done) {
 	// ---------------------------------------------------------------------
 	
     namespace.addVariable({
-        nodeId: 'ns=1;s=var_02',
+        //nodeId: 'ns=1;i=var_02',
         browseName: 'Variavel 02',
 		organizedBy: pEntradas,
         dataType: 'Double',
@@ -95,7 +95,7 @@ function constructAlarmAddressSpace(server, addressSpace, eventObjects, done) {
 	// ---------------------------------------------------------------------
 	
     namespace.addVariable({
-        //nodeId: 'ns=1;s=var_01',
+        //nodeId: 'ns=1;i=var_01',
         browseName: 'Variavel 03',
 		organizedBy: pEntradas,
         dataType: 'Double',
